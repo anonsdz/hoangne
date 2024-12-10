@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: php-web-app
+    env: docker
+    dockerfilePath: ./Dockerfile # Đường dẫn đến Dockerfile
+    port: 80                    # Cổng ứng dụng sẽ chạy
